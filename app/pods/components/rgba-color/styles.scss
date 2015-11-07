@@ -1,0 +1,26 @@
+$padding: 32px;
+$box: 360px;
+
+& {
+}
+
+.Rgba-color {
+  &__box {
+    padding: $padding;
+
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+
+    height: $box - ($padding * 2);
+    width: $box - ($padding * 2);
+
+    &--black {
+      color: black;
+    }
+
+    &--white {
+      color: white;
+    }
+  }
+}

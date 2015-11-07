@@ -1,0 +1,8 @@
+{{color-bar on-change-color=(action (mut color))}}
+
+{{#if color}}
+  {{rgba-color color=color}}
+{{else}}
+  Please mouse over the bar to select a color.
+{{/if}}
+
